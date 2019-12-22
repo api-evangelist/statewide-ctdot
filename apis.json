@@ -6,8 +6,8 @@
         "have api",
         "state government"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/statewide-ctdot\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -21,13 +21,17 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/statewide-ctdot-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/statewide-ctdot\/master\/statewide-ctdot-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Twitter",
             "url": "https:\/\/twitter.com\/CTDOT_Statewide"
